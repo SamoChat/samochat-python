@@ -23,7 +23,7 @@ class TestSamoChatData(unittest.TestCase):
 
     def test_get_location(self):
          data = SamochatData()
-         self.assertEqual(data.get_location("Samochat"), "Søborg, Danmark")
+         self.assertEqual(data.get_location("Samochat"), " Søborg, Danmark")
          
     def test_get_samocredits(self):
          data = SamochatData()
