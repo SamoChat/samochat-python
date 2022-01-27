@@ -39,7 +39,7 @@ jobs:
       run: |
         python -m unittest -v
 
-     name: Generate Report
+    - name: Generate Report
       run: |
         pip install coverage
         coverage run -m unittest
