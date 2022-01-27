@@ -5,8 +5,8 @@ from samochat import SamochatData
 
 class TestSamoChatData(unittest.TestCase):
 
-    samochat.client_id = os.getenv('client_id')
-    samochat.client_secret = os.getenv('client_secret')
+    samochat.client_id = str(os.getenv('client_id'))
+    samochat.client_secret = str(os.getenv('client_secret'))
     
     def test_get_name(self):
          data = SamochatData()
