@@ -4,9 +4,6 @@ from samochat.auth import OAuthHandler
 # API data
 from samochat.client import SamochatData
 
-#from SamoChat.SamoChatData import *
-
-
 
 
 # global variables
