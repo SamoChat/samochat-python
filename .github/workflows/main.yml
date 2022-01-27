@@ -38,3 +38,7 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest -v
+
+      env:
+        CLIENT_ID: ${{ secrets.CLIENT_ID }} 
+        CLIENT_SECRET: ${{ secrets.CLIENT_sECRET }} 
