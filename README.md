@@ -1,5 +1,5 @@
 # SamoChat Python library
-This is a library for the [SamoChat](https://samochat.net) API
+This is a python library for the [SamoChat](https://samochat.net) API
 
 
 ## Installation
